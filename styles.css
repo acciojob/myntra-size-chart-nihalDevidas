@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+table,th,td{
+	border: 1px solid black;
+	border-collapse: collapse; /*merge borders from || to |*/
+}
+td,th{
+	width: 90px;
+}
+
+.p1{
+	text-align:left;
+}
+.p2{
+	text-align:right;
+}
+/* colouring tables*/
+.thad{
+	background-color: indianred;
+}
+.tr1{
+	background-color: lightcoral;
+}
+.tr2{
+	background-color: lightpink;
+}
+.tr3{
+	background-color: lightgray;
+}
+.thad th, .tr1 td{
+	color: whitesmoke;
+}
+
